@@ -1,5 +1,0 @@
-flask
-flask-cors
-twilio
-fasttext
-python-dotenv
