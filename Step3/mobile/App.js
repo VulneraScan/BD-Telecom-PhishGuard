@@ -1,0 +1,1 @@
+// React Native stub for SMS scanning and push notifications
