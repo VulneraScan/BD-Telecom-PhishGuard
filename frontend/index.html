@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhishGuard Step 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BD-Telecom PhishGuard (Phase 1)</h1>
+  </header>
+
+  <section>
+    <h2>SMS OTP Test</h2>
+    <input type="text" id="phone" placeholder="+88017XXXXXXXX">
+    <button id="sendBtn">Send OTP</button>
+    <p id="sendResult"></p>
+  </section>
+
+  <section>
+    <h2>Phishing Classifier</h2>
+    <textarea id="smsText" rows="4" placeholder="Enter SMS text..."></textarea><br>
+    <button id="predictBtn">Predict</button>
+    <p id="predictResult"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
